@@ -1,0 +1,51 @@
+{
+  "transactions": [
+    {
+      "hash": "0x41d732ed3d0b4138c44c599882c16a0986dbfc924a6aaa218e0e95c3fe1c08de",
+      "transactionType": "CALL",
+      "contractName": "SelfDestructContract",
+      "contractAddress": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+      "function": "selfDestruct(address)",
+      "arguments": [
+        "0xB9E8D4d80276CC148e13b6a18E0b9f3078cF031A"
+      ],
+      "transaction": {
+        "from": "0xa86ea1be0a43ea977dd7489c7c91247b1a7bc50b",
+        "to": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+        "gas": "0x73a2",
+        "value": "0x1",
+        "input": "0x3f5a0bdd000000000000000000000000b9e8d4d80276cc148e13b6a18e0b9f3078cf031a",
+        "nonce": "0x27",
+        "chainId": "0xaa36a7",
+        "accessList": null,
+        "type": null
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x962ee6",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x41d732ed3d0b4138c44c599882c16a0986dbfc924a6aaa218e0e95c3fe1c08de",
+      "transactionIndex": "0x3e",
+      "blockHash": "0x3270f8dcb30086ee6719292d8c2208564809f31fe3e8253eb596c700238fd849",
+      "blockNumber": "0x57d113",
+      "gasUsed": "0x53b8",
+      "effectiveGasPrice": "0x32f63c00",
+      "from": "0xa86ea1be0a43ea977dd7489c7c91247b1a7bc50b",
+      "to": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1713814794,
+  "chain": 11155111,
+  "commit": "205068d"
+}
